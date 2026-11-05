@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_VMDELETEIMAGES</name>
+	<author>Custom</author>
+	<creationDate>2026-10</creationDate>
+	<version>1.0.0</version>
+	<license>GNU/GPL</license>
+	<description>PLG_SYSTEM_VMDELETEIMAGES_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="vmdeleteimages">vmdeleteimages.php</filename>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/plg_system_vmdeleteimages.ini</language>
+		<language tag="en-GB">en-GB/plg_system_vmdeleteimages.sys.ini</language>
+		<language tag="el-GR">el-GR/plg_system_vmdeleteimages.ini</language>
+		<language tag="el-GR">el-GR/plg_system_vmdeleteimages.sys.ini</language>
+	</languages>
+</extension>
